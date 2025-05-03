@@ -12,10 +12,12 @@ import Jewellery from "./Jewellery";
 const App = () => {
   return (
     <div>
+        <nav>
         <ul>
-          <li><Link to="/" >Home</Link></li>
-          <li><Link to="/women" >Women</Link></li>
+          <li><Link to="/" ><a href="">Home</a></Link></li>
+          <li><Link to="/women" ><a href="">Women</a></Link></li>
         </ul>
+        </nav>
 
         <Switch>
         <Route exact path="/"/>

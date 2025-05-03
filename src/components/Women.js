@@ -9,7 +9,8 @@ function Women() {
   const { path, url } = useRouteMatch(); // Get the dynamic path and url
 
   return (
-    <div>
+    <main>
+        <div>
       Women Items:
       <ul>
         <li><Link to={`${url}/Grooming`}><a href="">Grooming</a></Link></li>
@@ -29,6 +30,7 @@ function Women() {
         <Route path={`${path}/Jewellery`} component={Jewellery} /> {/* Capital J */}
       </Switch>
     </div>
+    </main>
   );
 }
 
